@@ -1,6 +1,6 @@
 const musicKeys = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'];
 const scaleTypes = ['Ionian', 'Dorian', 'Phyrgian', 'Lydian', 'Mixolydian', 'Aeolian', 'Locrian']
-const chordTypes = ['Major Triad', 'Minor Triad', 'Augmented Triad', 'Diminished Triad']
+const chordTypes = ['Major Triad', 'Minor Triad', 'Augmented Triad', 'Diminished Triad', 'Major 7th', 'Minor 7th', 'Major-Minor 7th', 'Dominant 7th']
 
 let keyBtn = document.getElementById('keyBtn');
 let chordBtn = document.getElementById('chordBtn');

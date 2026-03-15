@@ -22,7 +22,7 @@ keyBtn.addEventListener('click', function() {
 
 chordBtn.addEventListener('click', function() {
     let chordIndex = Math.floor(Math.random() * chordTypes.length)
-    chordDisplayBox.textContent = musicKeys[chordIndex] + ' ' + chordTypes[chordIndex]
+    chordDisplayBox.textContent = musicKeys[keyIndex] + ' ' + chordTypes[chordIndex]
 });
 
 scaleBtn.addEventListener('click', function() {
